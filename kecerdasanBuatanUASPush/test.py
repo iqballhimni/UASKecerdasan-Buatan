@@ -11,7 +11,7 @@ from sklearn import metrics
 # Load the Big Mart data
 @st.cache_data
 def load_data():
-    return pd.read_csv('kecerdasanBuatanUASPush\Train.csv')
+    return pd.read_csv('kecerdasanBuatanUASPush/Train.csv')
 
 big_mart_data = load_data()
 
